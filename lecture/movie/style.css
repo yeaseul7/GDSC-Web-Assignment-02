@@ -1,0 +1,23 @@
+.seats {
+  width: 500px;
+  height: 400px;
+  background-color: black;
+
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.seat {
+  width: 20px;
+  height: 20px;
+  background-color: greenyellow;
+}
+
+.selected {
+  background-color: blue;
+}
+
+.occupied {
+  background-color: red;
+}
